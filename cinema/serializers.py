@@ -1,4 +1,10 @@
-from cinema.models import CinemaHall, Actor, Genre, Movie, MovieSession
+from cinema.models import (
+    CinemaHall,
+    Actor,
+    Genre,
+    Movie,
+    MovieSession
+)
 from rest_framework import serializers
 
 
